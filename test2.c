@@ -99,6 +99,8 @@ void seek(FILE *inputf,FILE *key,char *fname)
             break;
     }
     fclose(out);
+    fclose(key);
+    key=fopen("stegokey.txt","w");
 }
 
 int main()
@@ -143,4 +145,6 @@ int main()
             printf("Enter valid input\n");
         }
     }
+    fclose(cover);
+    fclose(key);
 }
