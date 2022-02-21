@@ -2,7 +2,7 @@
 #include<stdlib.h>
 #include<math.h>
 #include<string.h>
-
+//i can edit
 void hide(FILE *inputf,FILE *cover,FILE *key)
 {
     //file2 stores the binary values of the chracters stored in the input file
@@ -145,6 +145,10 @@ int main()
             printf("Enter valid input\n");
         }
     }
+<<<<<<< HEAD
     fclose(cover);
     fclose(key);
 }
+=======
+}
+>>>>>>> 3263ee1cdbe29e4e971dc17ba41eeacc320f4e2c
